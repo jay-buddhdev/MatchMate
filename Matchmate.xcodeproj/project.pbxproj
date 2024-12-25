@@ -17,6 +17,8 @@
 		8197CC122D1BD2610016A388 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8197CC102D1BD2610016A388 /* Localizable.strings */; };
 		8197CC142D1BD2750016A388 /* AppResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC132D1BD2720016A388 /* AppResources.swift */; };
 		8197CC172D1BD34E0016A388 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC162D1BD34E0016A388 /* ColorResource.swift */; };
+		8197CC1A2D1C14CD0016A388 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC192D1C14C60016A388 /* APIManager.swift */; };
+		8197CC1C2D1C15120016A388 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC1B2D1C150C0016A388 /* Enumeration.swift */; };
 		B3BBBC317C5821275E377417 /* Pods_Matchmate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1983921A5071497FBC2F4 /* Pods_Matchmate.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		8197CC112D1BD2610016A388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8197CC132D1BD2720016A388 /* AppResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppResources.swift; sourceTree = "<group>"; };
 		8197CC162D1BD34E0016A388 /* ColorResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorResource.swift; sourceTree = "<group>"; };
+		8197CC192D1C14C60016A388 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8197CC1B2D1C150C0016A388 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 		F6E15393F6CFB23B3A3A065B /* Pods-Matchmate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchmate.release.xcconfig"; path = "Target Support Files/Pods-Matchmate/Pods-Matchmate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,8 @@
 		811BBDFC2D1BCA78008A7EED /* Matchmate */ = {
 			isa = PBXGroup;
 			children = (
+				8197CC1B2D1C150C0016A388 /* Enumeration.swift */,
+				8197CC182D1C14AA0016A388 /* Network */,
 				8197CC0F2D1BD2470016A388 /* Localization */,
 				812BEB482D1BCEEE00F3E509 /* Resources */,
 				812BEB452D1BCE5C00F3E509 /* AppDelegate.swift */,
@@ -123,6 +129,14 @@
 				8197CC162D1BD34E0016A388 /* ColorResource.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		8197CC182D1C14AA0016A388 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC192D1C14C60016A388 /* APIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		D852F7E19E63DCA7B61EA646 /* Frameworks */ = {
@@ -269,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8197CC1A2D1C14CD0016A388 /* APIManager.swift in Sources */,
 				812BEB462D1BCE5C00F3E509 /* AppDelegate.swift in Sources */,
+				8197CC1C2D1C15120016A388 /* Enumeration.swift in Sources */,
 				811BBE002D1BCA78008A7EED /* ContentView.swift in Sources */,
 				8197CC172D1BD34E0016A388 /* ColorResource.swift in Sources */,
 				811BBE112D1BD1B7008A7EED /* R.generated.swift in Sources */,
