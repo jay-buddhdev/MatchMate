@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		811BBDFE2D1BCA78008A7EED /* MatchmateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BBDFD2D1BCA78008A7EED /* MatchmateApp.swift */; };
-		811BBE002D1BCA78008A7EED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BBDFF2D1BCA78008A7EED /* ContentView.swift */; };
 		811BBE022D1BCA79008A7EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811BBE012D1BCA79008A7EED /* Assets.xcassets */; };
 		811BBE052D1BCA79008A7EED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811BBE042D1BCA79008A7EED /* Preview Assets.xcassets */; };
 		811BBE0A2D1BCA79008A7EED /* Matchmate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 811BBE082D1BCA79008A7EED /* Matchmate.xcdatamodeld */; };
@@ -19,6 +18,12 @@
 		8197CC172D1BD34E0016A388 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC162D1BD34E0016A388 /* ColorResource.swift */; };
 		8197CC1A2D1C14CD0016A388 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC192D1C14C60016A388 /* APIManager.swift */; };
 		8197CC1C2D1C15120016A388 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC1B2D1C150C0016A388 /* Enumeration.swift */; };
+		8197CC252D1C21D20016A388 /* UserListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC242D1C21D20016A388 /* UserListingView.swift */; };
+		8197CC282D1C24EE0016A388 /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC272D1C24E90016A388 /* UserCardView.swift */; };
+		8197CC2B2D1C25580016A388 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC2A2D1C25530016A388 /* UserModel.swift */; };
+		8197CC2F2D1C27DA0016A388 /* UserListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC2E2D1C27CE0016A388 /* UserListingViewModel.swift */; };
+		8197CC322D1C5D2A0016A388 /* ViewDidLoadModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */; };
+		8197CC342D1C5FE60016A388 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC332D1C5FE00016A388 /* Constants.swift */; };
 		B3BBBC317C5821275E377417 /* Pods_Matchmate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1983921A5071497FBC2F4 /* Pods_Matchmate.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +32,6 @@
 		66B1983921A5071497FBC2F4 /* Pods_Matchmate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matchmate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		811BBDFA2D1BCA78008A7EED /* Matchmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		811BBDFD2D1BCA78008A7EED /* MatchmateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchmateApp.swift; sourceTree = "<group>"; };
-		811BBDFF2D1BCA78008A7EED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		811BBE012D1BCA79008A7EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811BBE042D1BCA79008A7EED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		811BBE092D1BCA79008A7EED /* Matchmate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Matchmate.xcdatamodel; sourceTree = "<group>"; };
@@ -38,6 +42,12 @@
 		8197CC162D1BD34E0016A388 /* ColorResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorResource.swift; sourceTree = "<group>"; };
 		8197CC192D1C14C60016A388 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		8197CC1B2D1C150C0016A388 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
+		8197CC242D1C21D20016A388 /* UserListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListingView.swift; sourceTree = "<group>"; };
+		8197CC272D1C24E90016A388 /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
+		8197CC2A2D1C25530016A388 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8197CC2E2D1C27CE0016A388 /* UserListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListingViewModel.swift; sourceTree = "<group>"; };
+		8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadModifier.swift; sourceTree = "<group>"; };
+		8197CC332D1C5FE00016A388 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F6E15393F6CFB23B3A3A065B /* Pods-Matchmate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchmate.release.xcconfig"; path = "Target Support Files/Pods-Matchmate/Pods-Matchmate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,13 +93,14 @@
 		811BBDFC2D1BCA78008A7EED /* Matchmate */ = {
 			isa = PBXGroup;
 			children = (
+				8197CC302D1C5D210016A388 /* Helper */,
 				8197CC1B2D1C150C0016A388 /* Enumeration.swift */,
 				8197CC182D1C14AA0016A388 /* Network */,
+				8197CC232D1C21880016A388 /* Scenes */,
 				8197CC0F2D1BD2470016A388 /* Localization */,
 				812BEB482D1BCEEE00F3E509 /* Resources */,
 				812BEB452D1BCE5C00F3E509 /* AppDelegate.swift */,
 				811BBDFD2D1BCA78008A7EED /* MatchmateApp.swift */,
-				811BBDFF2D1BCA78008A7EED /* ContentView.swift */,
 				811BBE012D1BCA79008A7EED /* Assets.xcassets */,
 				811BBE082D1BCA79008A7EED /* Matchmate.xcdatamodeld */,
 				811BBE032D1BCA79008A7EED /* Preview Content */,
@@ -137,6 +148,58 @@
 				8197CC192D1C14C60016A388 /* APIManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		8197CC222D1C21880016A388 /* UserListing */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC2D2D1C27830016A388 /* ViewModel */,
+				8197CC292D1C253F0016A388 /* Model */,
+				8197CC262D1C21FF0016A388 /* View */,
+			);
+			path = UserListing;
+			sourceTree = "<group>";
+		};
+		8197CC232D1C21880016A388 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC222D1C21880016A388 /* UserListing */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8197CC262D1C21FF0016A388 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC272D1C24E90016A388 /* UserCardView.swift */,
+				8197CC242D1C21D20016A388 /* UserListingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8197CC292D1C253F0016A388 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC2A2D1C25530016A388 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8197CC2D2D1C27830016A388 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC2E2D1C27CE0016A388 /* UserListingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8197CC302D1C5D210016A388 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC332D1C5FE00016A388 /* Constants.swift */,
+				8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		D852F7E19E63DCA7B61EA646 /* Frameworks */ = {
@@ -285,12 +348,17 @@
 			files = (
 				8197CC1A2D1C14CD0016A388 /* APIManager.swift in Sources */,
 				812BEB462D1BCE5C00F3E509 /* AppDelegate.swift in Sources */,
+				8197CC2F2D1C27DA0016A388 /* UserListingViewModel.swift in Sources */,
 				8197CC1C2D1C15120016A388 /* Enumeration.swift in Sources */,
-				811BBE002D1BCA78008A7EED /* ContentView.swift in Sources */,
 				8197CC172D1BD34E0016A388 /* ColorResource.swift in Sources */,
+				8197CC282D1C24EE0016A388 /* UserCardView.swift in Sources */,
 				811BBE112D1BD1B7008A7EED /* R.generated.swift in Sources */,
+				8197CC322D1C5D2A0016A388 /* ViewDidLoadModifier.swift in Sources */,
+				8197CC252D1C21D20016A388 /* UserListingView.swift in Sources */,
 				811BBE0A2D1BCA79008A7EED /* Matchmate.xcdatamodeld in Sources */,
 				811BBDFE2D1BCA78008A7EED /* MatchmateApp.swift in Sources */,
+				8197CC342D1C5FE60016A388 /* Constants.swift in Sources */,
+				8197CC2B2D1C25580016A388 /* UserModel.swift in Sources */,
 				8197CC142D1BD2750016A388 /* AppResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

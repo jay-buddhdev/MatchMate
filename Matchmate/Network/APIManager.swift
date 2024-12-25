@@ -20,7 +20,7 @@ final class APIManager {
         body: Data? = nil,
         responseType: T.Type
     ) async throws -> T {
-        guard let url = URL(string: endpoint) else {
+        guard let url = URL(string: Constants.baseURL+endpoint) else {
             throw APIError.invalidURL
         }
 

@@ -9,3 +9,4 @@ import Foundation
 
 let AppStrings = R.string.localizable
 let AppColors = R.color
+let AppImages = R.image
