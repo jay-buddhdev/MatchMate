@@ -5,3 +5,7 @@
   Created by Jay Buddhdev on 25/12/24.
   
 */
+
+// MARK: - Userlisting Screen
+"profileMatch" = "Profile Match";
+"userAge" = "%d years old";
