@@ -234,6 +234,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				$SRCROOT/Matchmate/Resources/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
