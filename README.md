@@ -21,6 +21,8 @@ Third-party frameworks and libraries are managed using [Cocoapods][cocoa-org].
 #### Pods used 
 - [R.swift][rswift]: This library is to manage static strings in the application
 - [SDWebImageSwiftUI][sdWebimageswiftUI]: Used for download images
+- [SwiftMessages]: Presentation library use to show snackbar
+- [SFSafeSymbols]: Safely access Apple's SF Symbols using static typing
 
 ### Swift Style Guide
 Code follows [Raywenderlich][style-guide] style guide.
@@ -52,3 +54,5 @@ The project uses MVVM architecture.
    [style-guide]: <https://github.com/raywenderlich/swift-style-guide>
    [rswift]: <https://github.com/mac-cain13/R.swift>
    [sdWebimageswiftUI]: <https://github.com/SDWebImage/SDWebImageSwiftUI>
+   [SwiftMessages]: <https://github.com/SwiftKickMobile/SwiftMessages>
+   [SFSafeSymbols]: <https://github.com/SFSafeSymbols/SFSafeSymbols>

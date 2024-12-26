@@ -42,6 +42,18 @@ extension UserListingView {
             viewModel.isLoading = true
             viewModel.fetchUsers()
         }
+        .onReceive(viewModel.fetchUserError) { error in
+            Task
+            { @MainActor in
+                SwiftMessagesHelper.shared.showSnackBar(.errorMsg(text: error))
+            }
+        }
+        .onReceive(viewModel.userUpdateError) { error in
+            Task
+            { @MainActor in
+                SwiftMessagesHelper.shared.showSnackBar(.errorMsg(text: error))
+            }
+        }
     }
 }// End of extension
 

@@ -25,6 +25,10 @@
 		8197CC322D1C5D2A0016A388 /* ViewDidLoadModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */; };
 		8197CC342D1C5FE60016A388 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC332D1C5FE00016A388 /* Constants.swift */; };
 		8197CC372D1D1A510016A388 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC362D1D1A4B0016A388 /* CoreDataManager.swift */; };
+		8197CC3C2D1D457A0016A388 /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC3B2D1D457A0016A388 /* TransparentBlurView.swift */; };
+		8197CC3E2D1D45890016A388 /* SwiftMessagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC3D2D1D45890016A388 /* SwiftMessagesHelper.swift */; };
+		8197CC402D1D459B0016A388 /* ViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC3F2D1D459B0016A388 /* ViewWrapper.swift */; };
+		8197CC422D1D45A70016A388 /* SnackBarIconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC412D1D45A70016A388 /* SnackBarIconTextView.swift */; };
 		B3BBBC317C5821275E377417 /* Pods_Matchmate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1983921A5071497FBC2F4 /* Pods_Matchmate.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,10 @@
 		8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadModifier.swift; sourceTree = "<group>"; };
 		8197CC332D1C5FE00016A388 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8197CC362D1D1A4B0016A388 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8197CC3B2D1D457A0016A388 /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
+		8197CC3D2D1D45890016A388 /* SwiftMessagesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessagesHelper.swift; sourceTree = "<group>"; };
+		8197CC3F2D1D459B0016A388 /* ViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWrapper.swift; sourceTree = "<group>"; };
+		8197CC412D1D45A70016A388 /* SnackBarIconTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarIconTextView.swift; sourceTree = "<group>"; };
 		F6E15393F6CFB23B3A3A065B /* Pods-Matchmate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchmate.release.xcconfig"; path = "Target Support Files/Pods-Matchmate/Pods-Matchmate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,6 +207,7 @@
 		8197CC302D1C5D210016A388 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				8197CC3A2D1D45690016A388 /* Reusable */,
 				8197CC332D1C5FE00016A388 /* Constants.swift */,
 				8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */,
 			);
@@ -211,6 +220,17 @@
 				8197CC362D1D1A4B0016A388 /* CoreDataManager.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		8197CC3A2D1D45690016A388 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC412D1D45A70016A388 /* SnackBarIconTextView.swift */,
+				8197CC3F2D1D459B0016A388 /* ViewWrapper.swift */,
+				8197CC3D2D1D45890016A388 /* SwiftMessagesHelper.swift */,
+				8197CC3B2D1D457A0016A388 /* TransparentBlurView.swift */,
+			);
+			path = Reusable;
 			sourceTree = "<group>";
 		};
 		D852F7E19E63DCA7B61EA646 /* Frameworks */ = {
@@ -358,17 +378,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8197CC372D1D1A510016A388 /* CoreDataManager.swift in Sources */,
+				8197CC3E2D1D45890016A388 /* SwiftMessagesHelper.swift in Sources */,
 				8197CC1A2D1C14CD0016A388 /* APIManager.swift in Sources */,
 				812BEB462D1BCE5C00F3E509 /* AppDelegate.swift in Sources */,
 				8197CC2F2D1C27DA0016A388 /* UserListingViewModel.swift in Sources */,
 				8197CC1C2D1C15120016A388 /* Enumeration.swift in Sources */,
 				8197CC172D1BD34E0016A388 /* ColorResource.swift in Sources */,
+				8197CC3C2D1D457A0016A388 /* TransparentBlurView.swift in Sources */,
 				8197CC282D1C24EE0016A388 /* UserCardView.swift in Sources */,
 				811BBE112D1BD1B7008A7EED /* R.generated.swift in Sources */,
+				8197CC402D1D459B0016A388 /* ViewWrapper.swift in Sources */,
 				8197CC322D1C5D2A0016A388 /* ViewDidLoadModifier.swift in Sources */,
 				8197CC252D1C21D20016A388 /* UserListingView.swift in Sources */,
 				811BBE0A2D1BCA79008A7EED /* Matchmate.xcdatamodeld in Sources */,
 				811BBDFE2D1BCA78008A7EED /* MatchmateApp.swift in Sources */,
+				8197CC422D1D45A70016A388 /* SnackBarIconTextView.swift in Sources */,
 				8197CC342D1C5FE60016A388 /* Constants.swift in Sources */,
 				8197CC2B2D1C25580016A388 /* UserModel.swift in Sources */,
 				8197CC142D1BD2750016A388 /* AppResources.swift in Sources */,
