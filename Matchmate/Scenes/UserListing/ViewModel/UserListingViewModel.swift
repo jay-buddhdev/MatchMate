@@ -73,6 +73,7 @@ class UserListingViewModel: ObservableObject {
                 users[index].isAccepted = status
                 users = users.map { $0 }
             }
+            updateUserSyncStatus(userUUID: userUUID, status: status)
         case .failure(let error):
             userUpdateError.send(error.localizedDescription)
         }
@@ -82,11 +83,11 @@ class UserListingViewModel: ObservableObject {
         Task {
             do {
                 // TODO: replace endPoint and responseMode with updateData endpoint and response Model
-                let result = try await APIManager.shared.request(endpoint: "", responseType: BaseUserListResponse.self)
+                let result = try await APIManager.shared.request(endpoint: "", method: .post, responseType: BaseUserListResponse.self)
                 updateUserSyncCoreDataStatus(userUUID: userUUID)
             }
             catch {
-                userUpdateError.send(error.localizedDescription)
+                // TODO: Error Handling
             }
         }
     }
