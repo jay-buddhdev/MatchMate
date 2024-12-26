@@ -36,10 +36,11 @@ extension UserListingView {
                 }
             }
             .padding(.top, 20)
+            .padding(.bottom, 20)
         }
         .onLoad {
             viewModel.isLoading = true
-            viewModel.fetchUsersFromAPI()
+            viewModel.fetchUsers()
         }
     }
 }// End of extension
@@ -57,12 +58,14 @@ extension UserListingView {
 // MARK: - Button Actions
 extension UserListingView {
     
-    private func handleAccept(user: UserList) {
-        // TODO: Implement Latter
+    private func handleAccept(user: User) {
+        guard let uuid = user.uuid else { return }
+        viewModel.updateUser(userUUID: uuid, status: AppStrings.accepted())
     }
     
-    private func handleReject(user: UserList) {
-        // TODO: Implement Latter
+    private func handleReject(user: User) {
+        guard let uuid = user.uuid else { return }
+        viewModel.updateUser(userUUID:uuid, status: AppStrings.rejected())
     }
     
 }// End of extension
