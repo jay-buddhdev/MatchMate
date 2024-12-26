@@ -1,0 +1,203 @@
+%PDF-1.3
+%ÿÿÿÿ
+8 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/C0 [0.615686 1 0.807843]
+/C1 [0.313725 0.819608 0.552941]
+/N 1
+>>
+endobj
+9 0 obj
+<<
+/FunctionType 3
+/Domain [0 1]
+/Functions [8 0 R]
+/Bounds []
+/Encode [0 1]
+>>
+endobj
+10 0 obj
+<<
+/ShadingType 2
+/ColorSpace /DeviceRGB
+/Coords [9.858 9.858 38.142 38.142]
+/Function 9 0 R
+/Extend [true true]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pattern
+/PatternType 2
+/Shading 10 0 R
+/Matrix [5 0 0 -5 0 240]
+>>
+endobj
+12 0 obj
+<<
+/Type /ExtGState
+/ca 1
+>>
+endobj
+13 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/C0 [0.07451 0.364706 0.211765]
+/C1 [0.07451 0.364706 0.211765]
+/N 1
+>>
+endobj
+14 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/C0 [0.07451 0.364706 0.211765]
+/C1 [0.070588 0.34902 0.2]
+/N 1
+>>
+endobj
+15 0 obj
+<<
+/FunctionType 2
+/Domain [0 1]
+/C0 [0.070588 0.34902 0.2]
+/C1 [0.066667 0.321569 0.184314]
+/N 1
+>>
+endobj
+16 0 obj
+<<
+/FunctionType 3
+/Domain [0 1]
+/Functions [13 0 R 14 0 R 15 0 R]
+/Bounds [0.824 0.931]
+/Encode [0 1 0 1 0 1]
+>>
+endobj
+17 0 obj
+<<
+/ShadingType 2
+/ColorSpace /DeviceRGB
+/Coords [13 24.793 36 24.793]
+/Function 16 0 R
+/Extend [true true]
+>>
+endobj
+18 0 obj
+<<
+/Type /Pattern
+/PatternType 2
+/Shading 17 0 R
+/Matrix [5 0 0 -5 0 240]
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 1 0 R
+/MediaBox [0 0 240 240]
+/Contents 5 0 R
+/Resources 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Pattern <<
+/Sh1 11 0 R
+/Sh2 18 0 R
+>>
+/ExtGState <<
+/Gs1 12 0 R
+>>
+>>
+endobj
+5 0 obj
+<<
+/Length 284
+/Filter /FlateDecode
+>>
+stream
+xœ…QËNÄ0¼û+üxãGı‚½‚8pF°‡v%èş¿İ¦°­Úñ83ÍÄeL˜ğ1¡XÂ¾À'pô¶w_ QÍQE¨¼X@Åqôg†xÁ+*~Õğİ‘¿¶:=¾Şno_Wì+œ/Œk¿Âé¼2~¬`†b¸8j¦dyÀ¶`†XhÊÑ9D±ØÁp_’ğ`‡Cf‡ÄvÏŞáéß”r—R˜dRT¡š*.À\,ø	“8W.8˜RiŠC»AŞLÂÔêäŞLijÎ­5äLUù`…Xxh;ˆ Tª¹ÅÏ‰&—ı;ª$Õ©UiJz0‹½wiLÇ#p‹öZ"7*Íp°‰”+íà¢ØG1;™Sø™Ø¯±Ñûıw†¨
+endstream
+endobj
+20 0 obj
+(PDFKit)
+endobj
+21 0 obj
+(PDFKit)
+endobj
+22 0 obj
+(D:20241225143628Z)
+endobj
+19 0 obj
+<<
+/Producer 20 0 R
+/Creator 21 0 R
+/CreationDate 22 0 R
+>>
+endobj
+4 0 obj
+<<
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Names 2 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [7 0 R]
+>>
+endobj
+2 0 obj
+<<
+/Dests <<
+  /Names [
+]
+>>
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000002039 00000 n 
+0000002096 00000 n 
+0000001977 00000 n 
+0000001956 00000 n 
+0000001438 00000 n 
+0000001303 00000 n 
+0000001199 00000 n 
+0000000015 00000 n 
+0000000130 00000 n 
+0000000225 00000 n 
+0000000357 00000 n 
+0000000450 00000 n 
+0000000495 00000 n 
+0000000616 00000 n 
+0000000732 00000 n 
+0000000849 00000 n 
+0000000979 00000 n 
+0000001106 00000 n 
+0000001880 00000 n 
+0000001794 00000 n 
+0000001819 00000 n 
+0000001844 00000 n 
+trailer
+<<
+/Size 23
+/Root 3 0 R
+/Info 19 0 R
+/ID [<92a5d49c06982438a71daf54b3778833> <92a5d49c06982438a71daf54b3778833>]
+>>
+startxref
+2143
+%%EOF
