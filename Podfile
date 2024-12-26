@@ -10,5 +10,9 @@ target 'Matchmate' do
   pod 'SDWebImageSwiftUI'
 
   pod 'R.swift'
+  
+  pod 'SwiftMessages'
+  
+  pod 'SFSafeSymbols'
 
 end
