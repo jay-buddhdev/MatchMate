@@ -24,6 +24,7 @@
 		8197CC2F2D1C27DA0016A388 /* UserListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC2E2D1C27CE0016A388 /* UserListingViewModel.swift */; };
 		8197CC322D1C5D2A0016A388 /* ViewDidLoadModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */; };
 		8197CC342D1C5FE60016A388 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC332D1C5FE00016A388 /* Constants.swift */; };
+		8197CC372D1D1A510016A388 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197CC362D1D1A4B0016A388 /* CoreDataManager.swift */; };
 		B3BBBC317C5821275E377417 /* Pods_Matchmate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B1983921A5071497FBC2F4 /* Pods_Matchmate.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		8197CC2E2D1C27CE0016A388 /* UserListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListingViewModel.swift; sourceTree = "<group>"; };
 		8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadModifier.swift; sourceTree = "<group>"; };
 		8197CC332D1C5FE00016A388 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8197CC362D1D1A4B0016A388 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		F6E15393F6CFB23B3A3A065B /* Pods-Matchmate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matchmate.release.xcconfig"; path = "Target Support Files/Pods-Matchmate/Pods-Matchmate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		811BBDFC2D1BCA78008A7EED /* Matchmate */ = {
 			isa = PBXGroup;
 			children = (
+				8197CC352D1D1A3C0016A388 /* CoreData */,
 				8197CC302D1C5D210016A388 /* Helper */,
 				8197CC1B2D1C150C0016A388 /* Enumeration.swift */,
 				8197CC182D1C14AA0016A388 /* Network */,
@@ -200,6 +203,14 @@
 				8197CC312D1C5D290016A388 /* ViewDidLoadModifier.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		8197CC352D1D1A3C0016A388 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8197CC362D1D1A4B0016A388 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		D852F7E19E63DCA7B61EA646 /* Frameworks */ = {
@@ -346,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8197CC372D1D1A510016A388 /* CoreDataManager.swift in Sources */,
 				8197CC1A2D1C14CD0016A388 /* APIManager.swift in Sources */,
 				812BEB462D1BCE5C00F3E509 /* AppDelegate.swift in Sources */,
 				8197CC2F2D1C27DA0016A388 /* UserListingViewModel.swift in Sources */,

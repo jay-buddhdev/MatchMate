@@ -9,3 +9,6 @@
 // MARK: - Userlisting Screen
 "profileMatch" = "Profile Match";
 "userAge" = "%d years old";
+"none" = "None";
+"accepted" = "Accepted";
+"rejected" = "Rejected";
